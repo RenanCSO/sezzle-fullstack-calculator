@@ -1,0 +1,14 @@
+:root {
+  --color-bg: #f4f4f5;
+  --color-surface: #ffffff;
+  --color-text: #18181b;
+  --color-muted: #71717a;
+  --color-primary: #2563eb;
+  --color-error: #dc2626;
+  --color-success: #16a34a;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+}

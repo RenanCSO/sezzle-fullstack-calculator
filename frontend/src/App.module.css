@@ -1,0 +1,22 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  padding: var(--spacing-lg);
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: none;
+  }
+}

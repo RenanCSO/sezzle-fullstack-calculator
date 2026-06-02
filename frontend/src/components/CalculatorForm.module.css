@@ -1,0 +1,77 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+.subtitle {
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.input {
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #d4d4d8;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.button {
+  margin-top: var(--spacing-sm);
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--color-primary);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result {
+  padding: var(--spacing-md);
+  border-radius: var(--radius);
+  background: #f0fdf4;
+  color: var(--color-success);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.error {
+  margin: 0;
+  padding: var(--spacing-md);
+  border-radius: var(--radius);
+  background: #fef2f2;
+  color: var(--color-error);
+  font-size: 0.875rem;
+}
